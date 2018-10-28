@@ -1,3 +1,0 @@
-#### Set up and running RestAPI_Automation Framework ######
-1- Pull project from Git hub
-2-

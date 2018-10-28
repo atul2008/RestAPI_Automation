@@ -1,6 +1,3 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 import sys
 import os
 from shutil import rmtree
@@ -17,7 +14,7 @@ def clean_existing_report(report_param):
 
 if __name__ == '__main__':
     sys.stdout.flush()
-    define_reports = ['report-source-data', 'junit-compatible-report', 'allure-reports']
+    define_reports = ['report-source-data', 'project-reports']
     for elem in define_reports:
         clean_existing_report(elem)
         os.makedirs(elem)
@@ -29,7 +26,8 @@ if __name__ == '__main__':
     fullRunnerOptions = tagOptions + reportingRelated + commonRunnerOptions + featurePath
     runner_with_options.main(fullRunnerOptions)
     relative_path = os.getcwd() + "/" + define_reports[0]
-    get_allure_report = 'allure generate ' + relative_path + ' -o ' + define_reports[2]
-    openReport = 'allure open ' + define_reports[2]
+    get_allure_report = 'allure generate ' + relative_path + ' -o ' + define_reports[1]
+    openReport = 'allure open ' + define_reports[1]
     os.system(get_allure_report)
     os.system(openReport)
+

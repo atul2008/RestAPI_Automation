@@ -1,5 +1,7 @@
 # Rest API Automation using Behave (behave)
 
+[![Build Status](https://github.com/atul2008/RestAPI_Automation/tree/master/)](https://github.com/atul2008/RestAPI_Automation/tree/master/RestAPI_Automation)
+
 Behave is a Behavior Driven Development (BDD) framework based on 
 [behave](https://behave.readthedocs.io/en/latest/), that implements a language suitable 
 to test and validate REST APIs and Services. It leverages the power of the 
@@ -351,3 +353,16 @@ and we can validate the result very easy. First, we validate the
 response JSON body using the expected [JSON Schema](http://json-schema.org/). 
 Finally, we validate specific values in the response using 
 [ObjectPath](http://objectpath.org/tutorial.html).
+
+
+__**  SETUP CONFIGURATION AND USAGE **__
+
+- Pull project from Git hub: 
+-       https://github.com/atul2008/RestAPI_Automation.git
+- Install Python 3.7.0
+- Install 'pip3'
+- Install Java 1.8.0_181
+- Install requirements.txt 
+-       pip install -r requirements.txt
+- Run from root directory cd RestAPI_Automation : '/RestAPI_Automation/run_features.py'
+ -      python3 run_features.py

@@ -1,9 +1,7 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-import features.steps.response_validator as _validate
 from behave import *
-import requests
 import nose
+import requests
+import features.steps.response_validator as _validate
 
 use_step_matcher("parse")
 
