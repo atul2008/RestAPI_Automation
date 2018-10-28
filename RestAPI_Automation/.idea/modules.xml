@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../RestAPI_Automation/.idea/API_Automation.iml" filepath="$PROJECT_DIR$/../RestAPI_Automation/.idea/API_Automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Test/.idea/Test.iml" filepath="$PROJECT_DIR$/../Test/.idea/Test.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/behave-restful-master/.idea/behave-restful-master.iml" filepath="$USER_HOME$/Downloads/behave-restful-master/.idea/behave-restful-master.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/behave-restful-master/.idea/behave-restful-master.iml" filepath="$USER_HOME$/Downloads/behave-restful-master/.idea/behave-restful-master.iml" />
+    </modules>
+  </component>
+</project>
