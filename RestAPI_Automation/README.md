@@ -358,7 +358,7 @@ Finally, we validate specific values in the response using
 __**SETUP CONFIGURATION AND USAGE GUIDE **__
 
 `Note`: 
--       Tested and Verified with macOS High Sierra Version 10.13.6
+-       Tested and Verified with macOS High Sierra Version 10.13.6 
 - Pull project from Git hub: 
 -       https://github.com/atul2008/RestAPI_Automation.git
 - Install Python 3.7.0
