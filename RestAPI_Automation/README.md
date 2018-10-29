@@ -355,13 +355,19 @@ Finally, we validate specific values in the response using
 [ObjectPath](http://objectpath.org/tutorial.html).
 
 
-__**  SETUP CONFIGURATION AND USAGE **__
+__**SETUP CONFIGURATION AND USAGE GUIDE **__
 
+`Note`: 
+-       Tested and Verified with macOS High Sierra Version 10.13.6
 - Pull project from Git hub: 
 -       https://github.com/atul2008/RestAPI_Automation.git
 - Install Python 3.7.0
 - Install 'pip3'
 - Install Java 1.8.0_181
+- Install brew:
+-       /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+- Install allure:
+-       brew install allure 
 - Install requirements.txt 
 -       pip install -r requirements.txt
 - Run from root directory cd RestAPI_Automation : '/RestAPI_Automation/run_features.py'
