@@ -11,5 +11,10 @@ pipeline {
         bat '  cd RestAPI_Automation & pip3 install -r requirements.txt'
       }
     }
+    stage('Test') {
+      steps {
+        bat ' python3 run_features.py'
+      }
+    }
   }
 }
