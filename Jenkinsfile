@@ -16,5 +16,18 @@ pipeline {
         bat ' cd RestAPI_Automation & python run_features.py'
       }
     }
+    stage('Report'){
+      steps {
+        script {
+            allure([
+                    includeProperties: false,
+                    jdk: '',
+                    properties: [],
+                    reportBuildPolicy: 'ALWAYS',
+                    results: [[path: 'report-source-data']]
+            ])
+    }      
+      }
+    }
   }
 }
