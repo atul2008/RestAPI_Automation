@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        bat ' python run_features.py'
+        bat ' cd RestAPI_Automation & python run_features.py'
       }
     }
   }
