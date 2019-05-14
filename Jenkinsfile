@@ -8,7 +8,7 @@ pipeline {
     }
     stage('EnvSetup') {
       steps {
-        bat '  pip install -r requirements.txt'
+        bat '  cd RestAPI_Automation,pip install -r requirements.txt'
       }
     }
   }
