@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        bat ' python3 run_features.py'
+        bat ' python run_features.py'
       }
     }
   }
