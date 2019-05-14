@@ -21,7 +21,7 @@ pipeline {
         script {
             allure([
                     includeProperties: false,
-                    jdk: 'C:\Jdk\jdk-12.0.1\',
+                    jdk: 'C:\\Jdk\\jdk-12.0.1\\',
                     properties: [],
                     reportBuildPolicy: 'ALWAYS',
                     results: [[path: 'report-source-data']]
